@@ -4,9 +4,14 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
+
+	int x;
+	short y;
+	char z;
 	
-	printf("Hello Sookmyung EE!¡¬N");
-	
+	printf("byte of int : %d\n", sizeof(x));
+	printf("byte of short : %d\n", sizeof(y));
+	printf("byte of char : %d\n", sizeof(z));
 	
 	return 0;
 }
